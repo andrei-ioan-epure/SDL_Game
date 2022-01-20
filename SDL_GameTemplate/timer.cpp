@@ -188,8 +188,8 @@ void Time::reset(int diff) {
         }
         default:
         {
-            this->m = 2;
-            this->s = 30;
+            this->m = 3;
+            this->s = 0;
             this->ss = 0;
             break;
         }
