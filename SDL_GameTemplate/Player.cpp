@@ -225,7 +225,7 @@ SDL_Point Player::mapPos(void)
 
 	ret.y = (int)(this->getDestRect().y + 20) / 32;
 
-	cout << "Map pos: " << ret.x << " " << ret.y << endl;
+	//cout << "Map pos: " << ret.x << " " << ret.y << endl;
 	return ret;
 }
 
@@ -234,7 +234,7 @@ SDL_Point Player::mapCentre(void)
 	SDL_Point ret;
 	ret.x = (int)(this->getDestRect().x + 40) / 32;
 	ret.y = (int)(this->getDestRect().y + 45) / 32;
-	cout << "Map centre: " << ret.x << " " << ret.y << endl;
+	//cout << "Map centre: " << ret.x << " " << ret.y << endl;
 	return ret;
 
 }
@@ -526,7 +526,7 @@ int Player::pickItems(void)
 	{
 		lifes = lifes + 1;
 		s.playSound(2);
-		a += a;
+		a += 2000;
 	}
 	
 	
