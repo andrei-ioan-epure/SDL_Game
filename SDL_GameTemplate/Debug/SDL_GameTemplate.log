@@ -1,0 +1,5 @@
+﻿  Game.cpp
+  timer.cpp
+C:\Users\Andrei\Desktop\Game_POO\SDL_GameTemplate\timer.cpp(159,17): warning C4244: '-=': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
+LINK : fatal error LNK1561: entry point must be defined
